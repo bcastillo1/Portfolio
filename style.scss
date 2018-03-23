@@ -134,7 +134,7 @@ p:hover {
 .tile img {
     max-width: 100%;
     width: 100%;
-    height: auto;
+    height: 90%;
     margin-bottom: 1rem;
   
 }
@@ -177,6 +177,7 @@ p:hover {
   color:white;
   width:270px;
   height:160px;
+  margin-bottom: 1.25rem;
 }
 
 
@@ -193,8 +194,10 @@ height:500px;
   }
   }
 @media (min-width: 767px){
-  #picturebox{
-    width:766px;
-    height:1500px
+  body{
+    max-width:765px;
 }
+  #display{
+    max-height:1950px;
+  }
 }
